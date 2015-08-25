@@ -72,15 +72,12 @@
 
     <!-- BEGIN CONTAINER -->
    <div class="container min-height margin-top-30 col-md-12">
-
-   <div class="center margin-top-20">
-       <h1>The $1,000,000 Preregistration Challenge</h1>
-       <!--<p><h2>Plan. Test. Discover.</h2>-->
-       <h3>One thousand researchers will win $1,000 each for publishing work whose analyses were preregistered on the Open Science Framework.</h3></p></p></p>
-
+      <div class="center margin-top-20">
+        <h1>The $1,000,000 Preregistration Challenge</h1>
+        <h3>One thousand researchers will win $1,000 each for publishing work whose analyses were preregistered on the Open Science Framework.</h3></p></p></p>
+      </div>
    </div>
 
-    </div>
 </div>
 <!--
 <div class="container min-height margin-top-40">
@@ -94,10 +91,11 @@
     </div>
 -->
 </div>
-    <div class="container min-hight margin-top-5">
+    <div class="container min-hight margin-top-40">
         <div class="community-content">
             <div class="row">
                 <div class="col-sm-2 community-tab-list">
+
                     <ul class="tabbable community-tabbable">
                         <li class="active"><a href="#tab_0" data-toggle="tab">The Big Picture</a></li>
                         <li><a href="#tab_1" data-toggle="tab">The Pre-Reg Challenge</a></li>
@@ -108,11 +106,12 @@
                         <li><a href="#tab_6" data-toggle="tab">Review Process</a></li>
                       </ul>
                       <a href="https://osf.io" target="_blank">
-                      <img src="/static/img/pics/preregbutton_blue.png" alt="preregistration workflow" width="200px">
+                        <img src="/static/img/pics/preregbutton_blue.png" alt="preregistration workflow" width="200px">
                       </a>
                       <a href="https://osf.io" target="_blank">
-                      <img src="/static/img/pics/preregnoprize_blue.png" alt="preregistration workflow" width="200px">
+                        <img src="/static/img/pics/preregnoprize_blue.png" alt="preregistration workflow" width="200px">
                       </a>
+
                 </div>
 
                 <div class="col-sm-8 col-sm-offset-1 ">
@@ -122,41 +121,30 @@
                     <div class="tab-pane active" id="tab_0">
                         <table>
                             <tr>
-
                                 <td>
-                              <img src="/static/img/pics/pre-reg-flow.png" alt="preregistration workflow" width="600px" class="margin-top-50">
-
+                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/5RchaSlek_A" frameborder="0" allowfullscreen></iframe>
                                 </td>
                             </tr>
-
-
                         </table>
                     </div>
                     <!-- END TAB 0 -->
-                        <!-- START TAB 1 -->
-                        <div class="tab-pane" id="tab_1">
-                            <table>
-                                <tr>
+                    <!-- START TAB 1 -->
+                      <div class="tab-pane" id="tab_1">
+                        <table>
+                            <tr>
+                                <td>
+                                    <h3>Preregistration</h3>
+                                      <p>Preregistration is the act of submitting a research study design, sampling protocol, and analysis plan before conducting a study. A researcher who pre-registers her plan commits to collect and analyze data exactly as described in the archived, time stamped plan. As it is currently practiced, the research workflow can often lead to irreproducible results. This is not caused by ill intentions or fraud, but simply because there are many possible tests and such strong incentives to find and publish results that offer the most compelling stories. Since any research question can be analyzed many different of ways, virtually every dataset will some significant relationships if investigated sufficiently.</p>
 
-                                    <td>
-                                        <h3>Preregistration</h3>
-                                        <p>Preregistration is the act of submitting a research study design, sampling protocol, and analysis plan before
-                                        conducting a study. A researcher who pre-registers her plan commits to collect and analyze data exactly as described
-                                        in the archived, time stamped plan. As it is currently practiced, the research workflow can often lead to irreproducible
-                                        results. This is not caused by ill intentions or fraud, but simply because there are many possible tests and such strong incentives to find and publish results that offer the most compelling stories. Since any research question can be analyzed many different of ways, virtually every dataset will some significant relationships if investigated sufficiently.</p>
+                                      <p>These problems are the inevitable result of misaligned incentives and subtle biases. Preregistration is a tool that helps us to be more open about our research practices. It allows us to clearly present the results of confirmatory analyses on hypotheses made a priori while still allowing us to present exploratory results as valuable findings that warrant further investigation.</p>
 
-                                        <p>These problems are the inevitable result of misaligned incentives and subtle biases. Preregistration is a tool that
-                                        helps us to be more open about our research practices. It allows us to clearly present the results of confirmatory analyses on hypotheses made a priori while still allowing us to present exploratory results as valuable findings that warrant further investigation.</p>
-
-                                        <p>The process of preregistering one's plans is beneficial to both the scientific field and to the scientist. By writing out detailed data collection methods, analysis plans, and rules for excluding or missing data, we make important decisions that affect our workflow earlier, without the biases that occur once the data are in front of us.</p>
-
-                                        <h3>The Preregistration Challenge</h3>
-                                        <p>Old habits die hard. We have $1 million to give away in order to encourage this practice. We are awarding $1,000 each to 1,000 researchers who publish articles in an eligible journal that report on a study and its analysis preregistered through the OSF. Please review the information on this webpage to learn how you could be one of them! As with any competition, certain terms and conditions apply, but please ask us (prereg@cos.io) if you have questions!</p>
-                                    </td>
-                                </tr>
-
-
-                            </table>
+                                      <p>The process of preregistering one's plans is beneficial to both the scientific field and to the scientist. By writing out detailed data collection methods, analysis plans, and rules for excluding or missing data, we make important decisions that affect our workflow earlier, without the biases that occur once the data are in front of us.</p>
+                                    <h3>The Preregistration Challenge</h3>
+                                      <p>Old habits die hard. We have $1 million to give away in order to encourage this practice. We are awarding $1,000 each to 1,000 researchers who publish articles in an eligible journal that report on a study and its analysis preregistered through the OSF. Please review the information on this webpage to learn how you could be one of them! As with any competition, certain terms and conditions apply, but please ask us (prereg@cos.io) if you have questions!</p>
+                                    <center><img src="/static/img/pics/pre-reg-flow-bold.png" alt="preregistration workflow" width="450px" class="margin-top-10"></center>
+                                  </td>
+                              </tr>
+                          </table>
                         </div>
                         <!-- END TAB 1 -->
                         <!-- START TAB 2 -->
@@ -167,8 +155,6 @@
                                          <!--
                                          <iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="450" height="300" src="https://prezi.com/embed/hhyxxh0w4d8e/?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWklacTNtbFpjdVRkUlFZdXJPdzJRcGY3eXpaRnh4UmVIWGJZanU5Z0R2UCtJWTZveGNucmNqd3ZhaGsySVdDek00bjAralIwOWo5a3VqQ3RsRHBka2ZzTHBhc2Ryeko5SXF5TEx1Ykd5Y0M0UT09&amp;landing_sign=KAaOsXNKfwLkStZ2vMMdjg9oYckvEjMMUZDByADJv2o#"></iframe>
                                          -->
-
-
 
                                         <h3>How to Earn the Prize </p></h3>
                                         <ol>
